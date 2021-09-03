@@ -19,4 +19,4 @@ services:
       args:
         - CUDA=11.3.1
         - UBUNTU=20.04
-        - OPENCV=4.5.2
+        - OPENCV=4.5.3
