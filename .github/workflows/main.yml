@@ -36,7 +36,7 @@ jobs:
           cache-from: type=registry,ref=ghcr.io/zhouchengcom/opencv-cuda-docker:ubuntu18.04-cuda11.3.1-opencv3.4.14
           cache-to: type=inline
           tags: |
-            zhouchengcom/opencv-cuda:ubuntu18.04-cuda11.3.1-opencv3.4.14
+            chengzcom0926/opencv-cuda:ubuntu18.04-cuda11.3.1-opencv3.4.14
             ghcr.io/zhouchengcom/opencv-cuda-docker:ubuntu18.04-cuda11.3.1-opencv3.4.14
           build-args: |
             UBUNTU=18.04
@@ -52,7 +52,7 @@ jobs:
           cache-from: type=registry,ref=ghcr.io/zhouchengcom/opencv-cuda-docker:ubuntu18.04-cuda11.3.1-opencv3.4.14-rosmelodic
           cache-to: type=inline
           tags: |
-            zhouchengcom/opencv-cuda:ubuntu18.04-cuda11.3.1-opencv3.4.14-rosmelodic
+            chengzcom0926/opencv-cuda:ubuntu18.04-cuda11.3.1-opencv3.4.14-rosmelodic
             ghcr.io/zhouchengcom/opencv-cuda-docker:ubuntu18.04-cuda11.3.1-opencv3.4.14-rosmelodic
           build-args: |
             UBUNTU=18.04
@@ -87,8 +87,8 @@ jobs:
           cache-from: type=registry,ref=ghcr.io/zhouchengcom/opencv-cuda-docker:ubuntu20.04-cuda11.3.1-opencv4.5.3
           cache-to: type=inline
           tags: |
-            zhouchengcom/opencv-cuda:ubuntu20.04-cuda11.3.1-opencv4.5.3
-            zhouchengcom/opencv-cuda:latest
+            chengzcom0926/opencv-cuda:ubuntu20.04-cuda11.3.1-opencv4.5.3
+            chengzcom0926/opencv-cuda:latest
             ghcr.io/zhouchengcom/opencv-cuda-docker:ubuntu20.04-cuda11.3.1-opencv4.5.3
             ghcr.io/zhouchengcom/opencv-cuda-docker:latest
           build-args: |
@@ -105,8 +105,8 @@ jobs:
           cache-from: type=registry,ref=ghcr.io/zhouchengcom/opencv-cuda-docker:ubuntu20.04-cuda11.3.1-opencv4.5.3-rosnoetic
           cache-to: type=inline
           tags: |
-            zhouchengcom/opencv-cuda:ubuntu20.04-cuda11.3.1-opencv4.5.3-rosnoetic
-            zhouchengcom/opencv-cuda:ros-latest
+            chengzcom0926/opencv-cuda:ubuntu20.04-cuda11.3.1-opencv4.5.3-rosnoetic
+            chengzcom0926/opencv-cuda:ros-latest
             ghcr.io/zhouchengcom/opencv-cuda-docker:ubuntu20.04-cuda11.3.1-opencv4.5.3-rosnoetic
             ghcr.io/zhouchengcom/opencv-cuda-docker:ros-latest
           build-args: |
