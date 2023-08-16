@@ -14,7 +14,10 @@ pointer = ctypes.pointer(my_struct)
 address = ctypes.cast(pointer, ctypes.c_void_p).value
 
 # 把一个无效的整数地址赋给指针
-invalid_address = address + 1
+invalid_address = address + 100
 ctypes.cast(invalid_address, ctypes.POINTER(MyStruct))
+invalid_pointer.contents.x = 123
+
 
 # 这里会引发非法内存访问错误
+print("ddddddd")
